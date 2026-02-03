@@ -1,4 +1,4 @@
-# End-to-End Image Classification using PyTorch (CIFAR-10)
+# End-to-End Image Classification Pipeline
 
 This project implements a complete image classification pipeline using **PyTorch** and the **CIFAR-10** dataset.  
 It covers data loading, model training, evaluation, inference, and unit testing.
@@ -94,3 +94,4 @@ Expected result:
 - Matplotlib
 
 - pytest
+
