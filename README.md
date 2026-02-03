@@ -6,12 +6,12 @@ It covers data loading, model training, evaluation, inference, and unit testing.
 ---
 
 ## 📌 Project Features
-- CIFAR-10 data loading with augmentation
-- Convolutional Neural Network (CNN) model
-- Training loop with loss tracking and model checkpointing
-- Evaluation on test dataset
-- Single-image inference script
-- Unit tests using pytest
+- CIFAR-10 data loading with augmentation.
+- Convolutional Neural Network (CNN) model.
+- Training loop with loss tracking and model checkpointing.
+- Evaluation on test dataset.
+- Single-image inference script.
+- Unit tests using pytest.
 
 ---
 
@@ -54,8 +54,8 @@ pip install -r requirements.txt
 py training/train.py
 
 This will:
-- Train the CNN for 5 epochs
-- Save the trained model as cnn_cifar10.pth
+- Train the CNN for 5 epochs.
+- Save the trained model as cnn_cifar10.pth.
 
 ## 📊 Model Evaluation
 py training/evaluate.py
@@ -65,8 +65,8 @@ Test Accuracy: ~71%
 
 ## 🖼️ Inference (Single Image Prediction)
 
-- Place an image in the project root
-- Rename it to sample.jpg
+- Place an image in the project root.
+- Rename it to sample.jpg.
 
 Run:
 py inference.py
@@ -83,8 +83,8 @@ Expected result:
 
 
 ## 🧠 Notes
-- CIFAR-10 images are 32×32, so real-world images may not always be predicted accurately
-- This project focuses on correctness, structure, and ML fundamentals
+- CIFAR-10 images are 32×32, so real-world images may not always be predicted accurately.
+- This project focuses on correctness, structure, and ML fundamentals.
 
 ## ✅ Technologies Used
 - Python
@@ -92,6 +92,6 @@ Expected result:
 - torchvision
 - NumPy
 - Matplotlib
-
 - pytest
+
 
